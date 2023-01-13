@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Rubik+Bubbles&display=swap");
+
+body {
+  background-color: hsl(212, 45%, 89%);
+}
+
+.QR-box {
+  width: 300px;
+  height: 485px;
+  background-color: hsl(0, 0%, 100%);
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 5px 13px #0000001c;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.QR-box .QR-img {
+  width: 300px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.QR-box .QR-img img {
+  width: 100%;
+}
+
+.QR-box .QR-text {
+  text-align: center;
+  font-family: Outfit;
+}
+
+.QR-box .QR-text h3 {
+  font-size: 23px;
+  color: hsl(218, 44%, 22%);
+}
+
+.QR-box .QR-text p {
+  font-size: 15px;
+  color: hsl(220, 15%, 55%);
+  width: 87%;
+  margin: auto;
+}
