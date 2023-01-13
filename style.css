@@ -8,8 +8,7 @@ body {
 }
 
 .QR-box {
-  width: 300px;
-  height: 485px;
+  max-width: 300px;
   background-color: hsl(0, 0%, 100%);
   padding: 15px;
   border-radius: 15px;
@@ -24,7 +23,7 @@ body {
 }
 
 .QR-box .QR-img img {
-  width: 100%;
+  max-width: 100%;
 }
 
 .QR-box .QR-text {
